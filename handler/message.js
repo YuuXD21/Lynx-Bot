@@ -635,7 +635,7 @@ module.exports = async (sock, msg) => {
 			reply(text)
 			break
 		case 'brainly':
-			if (args.length == 0) return reply(`Example: ${prefix + command} siapakah sukarno`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} siapakah Jokowi`)
 			var { data } = await axios.get(`https://api.lolhuman.xyz/api/brainly?apikey=${apikey}&query=${full_args}`)
 			var text = 'Beberapa Pembahasan Dari Brainly :\n\n'
 			for (var x of data.result) {
@@ -647,7 +647,7 @@ module.exports = async (sock, msg) => {
 			reply(text)
 			break
 		case 'roboguru':
-			if (args.length == 0) return reply(`Example: ${prefix + command} siapakah sukarno`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} siapakah Jokowi`)
 			var { data } = await axios.get(`https://api.lolhuman.xyz/api/roboguru?apikey=${apikey}&query=${full_args}&grade=sma&subject=sejarah`).catch((err) => console.error(err?.response?.data))
 			var text = 'Beberapa Pembahasan Dari Roboguru :\n\n'
 			for (var x of data.result) {
@@ -751,7 +751,7 @@ module.exports = async (sock, msg) => {
 			reply(data.result)
 			break
 		case 'translate':
-			if (args.length == 0) return reply(`Example: ${prefix + command} en Tahu Bacem`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} I Love You`)
 			var kode_negara = args[0]
 			args.shift()
 			var text = args.join(' ')
