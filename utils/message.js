@@ -23,6 +23,7 @@ exports.help = (prefix) => {
 ├ • ${prefix}pinterest
 ├ • ${prefix}pixiv
 ├ • ${prefix}nsfwcek
+├ • ${prefix}jadwal
 │
 ├──「 Edukasi 」
 │
