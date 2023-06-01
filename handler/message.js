@@ -1465,6 +1465,7 @@ module.exports = async (sock, msg) => {
 			break
 
 		case 'ppcouple':
+		case 'ppcp':
 			axios.get(`https://api.lolhuman.xyz/api/random/${command}?apikey=${apikey}`).then(({ data }) => {
 				sock.sendMessage(from, { image: { url: data.result.male }, caption: 'Male' })
 				sock.sendMessage(from, { image: { url: data.result.female }, caption: 'Female' })
@@ -1699,21 +1700,7 @@ case 'senin':
 ╰───「 ${ownerName} 」`)
 	break;
 	case 'minggu':
-	reply(`╭───「 ${botName} 」
-│
-├──「 Jadwal Hari Senin 」
-│
-│ 1. Agama 12.50 - 13.30
-│ 2. Agama 13.30 - 14.10
-│ 3. Agama 14.10 - 14.50
-│ 4. Bahasa Jepang 14.50 - 15.30
-│     Istirahat 15.30 - 15.45
-│ 5. Informatika 15.45 - 16.25
-│ 6. Informatika 16.25 - 17.05
-│ 7. Informatika 17.05 - 17.45
-│ 8. Informatika 17.45 - 18.25
-│
-╰───「 ${ownerName} 」`)
+	reply(`Maaf sayang, Hari minggu adalah hari libur !`)
 	break;
 
 				  case 'cekgay':
