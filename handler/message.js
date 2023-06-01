@@ -267,7 +267,7 @@ module.exports = async (sock, msg) => {
 			if (args.length == 0) return reply(`Example: ${prefix + command} https://vt.tiktok.com/ZSwWCk5o/`)
 			sock.sendMessage(from, { video: { url: `https://api.lolhuman.xyz/api/tiktokwm?apikey=${apikey}&url=${args[0]}` } })
 			break*/
-		case 'tiktoknowm':
+		case 'tiktok':
 			if (args.length == 0) return reply(`Example: ${prefix + command} https://vt.tiktok.com/ZSwWCk5o/`)
 			axios.get(`https://api.lolhuman.xyz/api/tiktok?apikey=${apikey}&url=${args[0]}`).then(({ data }) => {
 				sock.sendMessage(from, { video: { url: data.result.link }, mimetype: 'video/mp4' })
@@ -1377,8 +1377,8 @@ module.exports = async (sock, msg) => {
 		case 'art':
 		case 'awoo':
 		case 'bts':
-		case 'cecan':
-		case 'cogan':
+		*/case 'cecan':
+		/*case 'cogan':
 		case 'elaina':
 		case 'exo':
 		case 'elf':
@@ -1393,7 +1393,7 @@ module.exports = async (sock, msg) => {
 		case 'shinobu':
 		case 'megumin':
 		case 'wallnime':
-		case 'quotesimage':
+		case 'quotesimage':*/
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/random/${command}?apikey=${apikey}` } })
 			break
 
@@ -1414,7 +1414,7 @@ module.exports = async (sock, msg) => {
 		case 'hentaifemdom':
 		case 'lewdanimegirls':
 		case 'biganimetiddies':
-		case 'animebellybutton':*/
+		case 'animebellybutton':
 		case 'hentai4everyone':
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${apikey}` } })
 			break
@@ -1445,7 +1445,7 @@ module.exports = async (sock, msg) => {
 		case 'waifu':
 		case 'pussy':
 		case 'femdom':
-		case 'cuddle':*/
+		case 'cuddle':
 		case 'hentai':
 		/*case 'eroyuri':
 		case 'cum_jpg':
@@ -1460,7 +1460,7 @@ module.exports = async (sock, msg) => {
 		case 'wallpaper':
 		case 'pussy_jpg':
 		case 'kemonomimi':
-		case 'nsfw_avatar':
+		case 'nsfw_avatar':*/
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/random2/${command}?apikey=${apikey}` } })
 			break
 
@@ -1506,7 +1506,7 @@ module.exports = async (sock, msg) => {
 		case 'thunder':
 			if (args.length == 0) return reply(`Example: ${prefix + command} Lynx Bot`)
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${full_args}` } })
-			break*/
+			break
 
 		case 'pornhub':
 		case 'glitch':
@@ -1522,7 +1522,7 @@ module.exports = async (sock, msg) => {
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}` } })
 			break
 
-		/*// Photo Oxy //
+		// Photo Oxy //
 		case 'shadow':
 		case 'cup':
 		case 'cup1':
@@ -1553,7 +1553,7 @@ module.exports = async (sock, msg) => {
 
 		case 'tiktok':
 		case 'arcade8bit':
-		case 'battlefield4':*/
+		case 'battlefield4':
 		case 'pubg':
 			if (args.length == 0) return reply(`Example: ${prefix + command} Lynx Bot`)
 			sock.sendMessage(from, { image: { url: `https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}` } })
