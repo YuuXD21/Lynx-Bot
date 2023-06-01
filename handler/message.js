@@ -1598,25 +1598,122 @@ module.exports = async (sock, msg) => {
 break;
 
 case 'senin':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Senin 」
+│
+│ 1. Agama 12.50 - 13.30
+│ 2. Agama 13.30 - 14.10
+│ 3. Agama 14.10 - 14.50
+│ 4. Bahasa Jepang 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. Informatika 15.45 - 16.25
+│ 6. Informatika 16.25 - 17.05
+│ 7. Informatika 17.05 - 17.45
+│ 8. Informatika 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'selasa':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Selasa 」
+│
+│ 1. IPAS 12.50 - 13.30
+│ 2. IPAS 13.30 - 14.10
+│ 3. Bahasa Indonesia 14.10 - 14.50
+│ 4. Bahasa Indonesia 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. Seni Budaya 15.45 - 16.25
+│ 6. Seni Budaya 16.25 - 17.05
+│ 7. Bahasa Bali 17.05 - 17.45
+│ 8. Bahasa Bali 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'rabu':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Rabu 」
+│
+│ 1. IPAS 12.50 - 13.30
+│ 2. IPAS 13.30 - 14.10
+│ 3. Matematika 14.10 - 14.50
+│ 4. Matematika 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. PPLG 15.45 - 16.25
+│ 6. PPLG 16.25 - 17.05
+│ 7. Bahasa Inggris 17.05 - 17.45
+│ 8. Bahasa Inggris 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'kamis':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Kamis 」
+│
+│ 1. Matematika 12.50 - 13.30
+│ 2. Matematika 13.30 - 14.10
+│ 3. PPLG 14.10 - 14.50
+│ 4. PPLG 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. Bahasa Inggris 15.45 - 16.25
+│ 6. Bahasa Inggris 16.25 - 17.05
+│ 7. Pendidikan Pancasila 17.05 - 17.45
+│ 8. Pendidikan Pancasila 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'jumat':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Jumat 」
+│
+│ 1. Sejarah 13.30 - 14.10
+│ 2. Sejarah 14.10 - 14.50
+│ 3. IPAS 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 4. IPAS 15.45 - 16.25
+│ 5. Elemen Dasar RPL 16.25 - 17.05
+│ 6. Bahasa Indonesia 17.05 - 17.45
+│ 7. Bahasa Indonesia 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'sabtu':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Sabtu 」
+│
+│ 1. K3LH 12.50 - 13.30
+│ 2. K3LH 13.30 - 14.10
+│ 3. K3LH 14.10 - 14.50
+│ 4. K3LH 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. Elemen Dasar RPL 15.45 - 16.25
+│ 6. Elemen Dasar RPL 16.25 - 17.05
+│ 7. Elemen Dasar RPL 17.05 - 17.45
+│ 8. Elemen Dasar RPL 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 	case 'minggu':
-	reply("Fitur ini masih dibuat !")
+	reply(`╭───「 ${botName} 」
+│
+├──「 Jadwal Hari Senin 」
+│
+│ 1. Agama 12.50 - 13.30
+│ 2. Agama 13.30 - 14.10
+│ 3. Agama 14.10 - 14.50
+│ 4. Bahasa Jepang 14.50 - 15.30
+│     Istirahat 15.30 - 15.45
+│ 5. Informatika 15.45 - 16.25
+│ 6. Informatika 16.25 - 17.05
+│ 7. Informatika 17.05 - 17.45
+│ 8. Informatika 17.45 - 18.25
+│
+╰───「 ${ownerName} 」`)
 	break;
 
 				  case 'cekgay':
